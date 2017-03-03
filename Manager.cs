@@ -44,6 +44,7 @@ public class Manager : Photon.MonoBehaviour {
 			if (GUI.Button (new Rect (10, 10, 200, 30), "Find Match")) {
 				
 				PhotonNetwork.JoinRandomRoom ();
+				state = 5;
 			}
 			break;
 		//Connected to Room
